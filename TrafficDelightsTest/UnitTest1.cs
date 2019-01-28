@@ -7,8 +7,11 @@ namespace TrafficDelightsTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestPourTest()
         {
+            int oui = 1;
+
+            Assert.AreEqual(1, oui);
         }
     }
 }
