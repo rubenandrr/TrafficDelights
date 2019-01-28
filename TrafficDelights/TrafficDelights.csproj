@@ -116,5 +116,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrafficDelightsTest\TrafficDelightsTest.csproj">
+      <Project>{eec5e8eb-7bf8-418c-9868-f4a8f3990135}</Project>
+      <Name>TrafficDelightsTest</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
