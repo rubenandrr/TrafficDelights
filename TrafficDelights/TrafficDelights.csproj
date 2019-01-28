@@ -60,17 +60,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="class1\Bus.cs" />
-    <Compile Include="class1\Camion.cs" />
-    <Compile Include="class1\Feu.cs" />
-    <Compile Include="class1\Marquage.cs" />
-    <Compile Include="class1\Moto.cs" />
-    <Compile Include="class1\Panneau.cs" />
-    <Compile Include="class1\Route.cs" />
-    <Compile Include="class1\Signalisation.cs" />
-    <Compile Include="class1\Vehicule.cs" />
-    <Compile Include="class1\Velo.cs" />
-    <Compile Include="class1\Voiture.cs" />
+    <Compile Include="class\Bus.cs" />
+    <Compile Include="class\Camion.cs" />
+    <Compile Include="class\Feu.cs" />
+    <Compile Include="class\Marquage.cs" />
+    <Compile Include="class\Moto.cs" />
+    <Compile Include="class\Panneau.cs" />
+    <Compile Include="class\Route.cs" />
+    <Compile Include="class\Signalisation.cs" />
+    <Compile Include="class\Vehicule.cs" />
+    <Compile Include="class\Velo.cs" />
+    <Compile Include="class\Voiture.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
