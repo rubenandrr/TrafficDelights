@@ -8,7 +8,7 @@ namespace TrafficDelightsTest
     public class UnitTest1
     {
         [TestMethod]
-        public void Testconflict()
+        public void TestconflictLorenzo()
         {
             
         }
