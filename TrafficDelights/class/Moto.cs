@@ -17,6 +17,21 @@ namespace TrafficDelights
     {
         // Attributes
 
-        public int nbRoues;
+        private int nbRoues;
+
+        public int NbRoues { get => nbRoues; set => nbRoues = value; }
+
+        public Moto() : this("Ducati", "Rouge", 2, 2)
+        {
+            //do nothing
+        }
+        public Moto(string pMarque, string pCouleur, int pNbPlaces, int pNbRoues)
+        {
+            this.Marque = pMarque;
+            this.Couleur = pCouleur;
+            this.NbPlaces = pNbPlaces;
+            this.NbRoues = pNbRoues;
+        }
+
     } /* end class Moto */
 }

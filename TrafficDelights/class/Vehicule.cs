@@ -17,11 +17,16 @@ namespace TrafficDelights
     {
         // Attributes
 
-        public string marque;
+        private string marque;
 
-        public string couleur;
+        private string couleur;
 
-        public int nbPlaces;
+        private int nbPlaces;
+
+        public string Marque { get => marque; set => marque = value; }
+        public string Couleur { get => couleur; set => couleur = value; }
+        public int NbPlaces { get => nbPlaces; set => nbPlaces = value; }
+
 
         // Operations
 

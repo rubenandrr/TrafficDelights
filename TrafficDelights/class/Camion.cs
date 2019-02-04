@@ -23,14 +23,17 @@ namespace TrafficDelights
 
         public int NbRoues { get => nbRoues; set => nbRoues = value; }
 
-        public Camion() : this(6)
+        public Camion() : this(6, "Bentley", "Noir", 3)
         {
             //do nothing
         }
 
-        public Camion(int pNbRoues)
+        public Camion(int pNbRoues, string pMarque, string pCouleur, int pNbPlaces)
         {
             this.NbRoues = pNbRoues;
+            this.Marque = pMarque;
+            this.Couleur = pCouleur;
+            this.NbPlaces = pNbPlaces;
         }
     } /* end class Camion */
 }

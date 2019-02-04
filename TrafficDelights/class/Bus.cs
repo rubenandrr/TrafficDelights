@@ -30,17 +30,20 @@ namespace TrafficDelights
         public string Arrive { get => arrive; set => arrive = value; }
         public int NumeroBus { get => numeroBus; set => numeroBus = value; }
 
-        public Bus() : this(6, "Aéroport", "Rive", 10)
+        public Bus() : this(6, "Aéroport", "Rive", 10, "Mercedes", "Blanc", 150)
         {
             //do nothing
         }
 
-        public Bus(int pNbRoues, string pDepart, string pArrive, int pNumeroBus)
+        public Bus(int pNbRoues, string pDepart, string pArrive, int pNumeroBus, string pMarque, string pCouleur, int pNbPlaces)
         {
             this.NbRoues = pNbRoues;
             this.Depart = pDepart;
             this.Arrive = pArrive;
             this.NumeroBus = pNumeroBus;
+            this.Marque = pMarque;
+            this.Couleur = pCouleur;
+            this.NbPlaces = pNbPlaces;
         }
     } /* end class Bus */
 }
