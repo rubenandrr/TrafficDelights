@@ -26,5 +26,12 @@ namespace TrafficDelights
 
             Assert.AreEqual(6, camion.NbRoues);
         }
+        [TestMethod]
+        public void BusDepartureIsAeroportAndNumeroBusIs10()
+        {
+            Bus bus = new Bus();
+            Assert.AreEqual("Aéroport", bus.Depart);
+            Assert.AreEqual(10, bus.NumeroBus);
+        }
     }
 }

@@ -17,12 +17,30 @@ namespace TrafficDelights
     {
         // Attributes
 
-        public int nbRoues;
+        private int nbRoues;
 
-        public string depart;
+        private string depart;
 
-        public string arrive;
+        private string arrive;
 
-        public int numeroBus;
+        private int numeroBus;
+
+        public int NbRoues { get => nbRoues; set => nbRoues = value; }
+        public string Depart { get => depart; set => depart = value; }
+        public string Arrive { get => arrive; set => arrive = value; }
+        public int NumeroBus { get => numeroBus; set => numeroBus = value; }
+
+        public Bus() : this(6, "Aéroport", "Rive", 10)
+        {
+            //do nothing
+        }
+
+        public Bus(int pNbRoues, string pDepart, string pArrive, int pNumeroBus)
+        {
+            this.NbRoues = pNbRoues;
+            this.Depart = pDepart;
+            this.Arrive = pArrive;
+            this.NumeroBus = pNumeroBus;
+        }
     } /* end class Bus */
 }
