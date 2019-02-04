@@ -26,5 +26,12 @@ namespace TrafficDelights
 
             Assert.AreEqual(6, camion.NbRoues);
         }
+        [TestMethod]
+        public void TestVehiculeHas4Roues()
+        {
+            Voiture voiture = new Voiture(4);
+
+            Assert.AreEqual(4, voiture.NbRoues);
+        }
     }
 }
