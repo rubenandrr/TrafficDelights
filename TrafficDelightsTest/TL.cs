@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TrafficDelightsTest;
+using TrafficDelights;
 
-namespace TrafficDelightsTest
+namespace TrafficDelights
 {
     [TestClass]
     public class UnitTest1
@@ -13,10 +13,18 @@ namespace TrafficDelightsTest
         {
 
         }
+        [TestMethod]
         public void TestconflictRubenlol()
 
         {
             
+        }
+        [TestMethod]
+        public void TestCamionHas6Roues()
+        {
+            Camion camion = new Camion();
+
+            Assert.AreEqual(6, camion.NbRoues);
         }
     }
 }

@@ -17,6 +17,20 @@ namespace TrafficDelights
     {
         // Attributes
 
-        public int nbRoues;
+        private int nbRoues;
+
+       
+
+        public int NbRoues { get => nbRoues; set => nbRoues = value; }
+
+        public Camion() : this(6)
+        {
+            //do nothing
+        }
+
+        public Camion(int pNbRoues)
+        {
+            this.NbRoues = pNbRoues;
+        }
     } /* end class Camion */
 }
